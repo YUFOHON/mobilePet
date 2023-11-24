@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15840C162B106E510062DC45 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15840C152B106E510062DC45 /* SpeechRecognizer.swift */; };
 		3A01EB702B0F0ED800C85AF8 /* forest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A01EB6F2B0F0ED800C85AF8 /* forest.jpg */; };
 		3A01EB722B0F108100C85AF8 /* room.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A01EB712B0F108100C85AF8 /* room.png */; };
 		3A7DF7872B106B85000203C6 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DF7862B106B85000203C6 /* AudioView.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15840C152B106E510062DC45 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		3A01EB6F2B0F0ED800C85AF8 /* forest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forest.jpg; sourceTree = "<group>"; };
 		3A01EB712B0F108100C85AF8 /* room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room.png; sourceTree = "<group>"; };
 		3A7DF7862B106B85000203C6 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				AD3A2BE524D5E3EB0025EE3D /* Objects */,
 				AD3A2BB024D5E28C0025EE3D /* SceneApp.swift */,
 				AD3A2BB224D5E28C0025EE3D /* ContentView.swift */,
+				15840C152B106E510062DC45 /* SpeechRecognizer.swift */,
 				AD3A2BB424D5E2910025EE3D /* Assets.xcassets */,
 				AD3A2BB924D5E2910025EE3D /* Info.plist */,
 				AD3A2BB624D5E2910025EE3D /* Preview Content */,
@@ -311,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD3A2BB324D5E28C0025EE3D /* ContentView.swift in Sources */,
+				15840C162B106E510062DC45 /* SpeechRecognizer.swift in Sources */,
 				3A7DF7872B106B85000203C6 /* AudioView.swift in Sources */,
 				AD3A2BB124D5E28C0025EE3D /* SceneApp.swift in Sources */,
 			);
@@ -471,6 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scene/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AGPVU53FM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scene/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -478,7 +483,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.Scene;
+				PRODUCT_BUNDLE_IDENTIFIER = yeelam.Scene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,6 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Scene/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AGPVU53FM;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Scene/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -499,7 +505,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kavsoft.Scene;
+				PRODUCT_BUNDLE_IDENTIFIER = yeelam.Scene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
