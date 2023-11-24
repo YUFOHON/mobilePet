@@ -11,6 +11,7 @@
 		3A01EB722B0F108100C85AF8 /* room.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A01EB712B0F108100C85AF8 /* room.png */; };
 		3A7DF7872B106B85000203C6 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7DF7862B106B85000203C6 /* AudioView.swift */; };
 		3A7DF7892B106CB8000203C6 /* cat.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3A7DF7882B106CB8000203C6 /* cat.usdz */; };
+		3A7DF78B2B10719F000203C6 /* meow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A7DF78A2B10719F000203C6 /* meow.mp3 */; };
 		3AF861032B0E654C006321C8 /* cat3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3AF861022B0E654C006321C8 /* cat3.usdz */; };
 		3AF861072B0E6856006321C8 /* cartoon_cat.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3AF861062B0E6856006321C8 /* cartoon_cat.usdz */; };
 		AD3A2BB124D5E28C0025EE3D /* SceneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A2BB024D5E28C0025EE3D /* SceneApp.swift */; };
@@ -46,6 +47,7 @@
 		3A01EB712B0F108100C85AF8 /* room.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room.png; sourceTree = "<group>"; };
 		3A7DF7862B106B85000203C6 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
 		3A7DF7882B106CB8000203C6 /* cat.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cat.usdz; sourceTree = "<group>"; };
+		3A7DF78A2B10719F000203C6 /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
 		3AF861022B0E654C006321C8 /* cat3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cat3.usdz; sourceTree = "<group>"; };
 		3AF861062B0E6856006321C8 /* cartoon_cat.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = cartoon_cat.usdz; sourceTree = "<group>"; };
 		AD3A2BAD24D5E28C0025EE3D /* Scene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scene.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 		AD3A2BE524D5E3EB0025EE3D /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				3A7DF78A2B10719F000203C6 /* meow.mp3 */,
 				3A7DF7882B106CB8000203C6 /* cat.usdz */,
 				3A01EB712B0F108100C85AF8 /* room.png */,
 				3A01EB6F2B0F0ED800C85AF8 /* forest.jpg */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7DF7892B106CB8000203C6 /* cat.usdz in Resources */,
+				3A7DF78B2B10719F000203C6 /* meow.mp3 in Resources */,
 				AD3A2BE924D5E7F10025EE3D /* 13903_Mars_v1_l3.mtl in Resources */,
 				3A01EB702B0F0ED800C85AF8 /* forest.jpg in Resources */,
 				AD3A2BEA24D5E7F10025EE3D /* 13903_Mars_v1_l3.obj in Resources */,

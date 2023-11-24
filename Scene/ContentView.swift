@@ -10,7 +10,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             SceneView(scene: makeScene(), options: [.allowsCameraControl, .autoenablesDefaultLighting])
-                .frame(width: UIScreen.main.bounds.width * 3 , height: UIScreen.main.bounds.height )
+                .frame(width: UIScreen.main.bounds.width * 3 , height: UIScreen.main.bounds.height/2 )
             
             HStack {
                 ForEach(0..<4) { index in
@@ -26,6 +26,8 @@ struct ContentView: View {
                     }
                 }
             }
+            AudioPlayerView(selectedAnimationIndex: $selectedAnimationIndex)
+
         }
     }
     
