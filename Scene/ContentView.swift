@@ -13,9 +13,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             SceneView(scene: makeScene(), options: [.allowsCameraControl, .autoenablesDefaultLighting])
-                .frame(width: UIScreen.main.bounds.width * 3 , height: UIScreen.main.bounds.height/2 )
+                .frame(width: UIScreen.main.bounds.width * 3 , height: UIScreen.main.bounds.height )
             
-<<<<<<< HEAD
 //            Text("Command: ")
 //            Text(String(speechRecognizer.selectedAnimationIndex))
 //            
@@ -58,25 +57,6 @@ struct ContentView: View {
         }.onAppear(perform: {
             speechRecognizer.transcribe()
         })
-=======
-            HStack {
-                ForEach(0..<4) { index in
-                    Button(action: {
-                        selectedAnimationIndex = index // Set the selected animation index
-                    }) {
-                        Text(animationNames[index])
-                            .padding()
-                            .background(selectedAnimationIndex == index ? Color.blue : Color.gray) // Highlight the selected animation
-                            .foregroundColor(.white)
-                            .cornerRadius(10)
-                            .font(.headline)
-                    }
-                }
-            }
-            AudioPlayerView(selectedAnimationIndex: $selectedAnimationIndex)
-
-        }
->>>>>>> 439802ea327f32e8346049a2af3d7cfa99288d4e
     }
     
     func makeScene() -> SCNScene {
@@ -110,7 +90,7 @@ struct ContentView: View {
             }
         print(speechRecognizer.selectedAnimationIndex)
         print(speechRecognizer.transcript)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2,
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5,
                                       execute: {
             if speechRecognizer.selectedAnimationIndex == 1 {
                 speechRecognizer.selectedAnimationIndex = 0
@@ -155,3 +135,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
